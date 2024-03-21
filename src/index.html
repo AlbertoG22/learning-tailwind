@@ -7,16 +7,33 @@
     <title>Tailwind - Instalattion</title>
 </head>
 <body>
-    <h1 class="bg-lime-200 text-dark-blue">Aprendiendo</h1>
+    <!-- COLORS -->
+    <h1 class="text-center font-extrabold text-4xl">Colors</h1>
+    <h2 class="bg-lime-200 text-dark-blue">Aprendiendo</h2>
     <h2 class="bg-lime-400">Tailwind</h2>
-    <h3 class="bg-lime-700">desde cero</h3>
+    <h2 class="bg-lime-700">desde cero</h2>
 
     <button class="bg-light-blue/50 hover:bg-dark-blue text-white p-2 rounded-lg w-24 mx-auto block my-8">Button</button>
 
     <div class="bg-gradient-to-r from-light-blue to-dark-blue text-white border-red-600 border-2">Div</div>
 
-    <div class="text-4xl font-extrabold mt-5">
+    <div class="text-3xl font-extrabold mt-5">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Hello World!</span>
+    </div>
+
+    <!-- MEASURES -->
+    <h1 class="text-center font-extrabold text-4xl">Measures</h1>
+    <p>Con valores establecidos</p>
+    <h2 class="bg-red-400 w-40">Measures in Tailwind</h2> 
+    <p class="mt-5">Usando "[]" para definir el valor que queremos</p>
+    <h2 class="bg-red-400 w-[170px]">Measures in Tailwind</h2>
+    <p class="mt-5">Añadiendo la medida en el archivo de configuración</p>
+    <h2 class="bg-red-400 w-42 h-42">Measures in Tailwind</h2>
+    <p class="mt-5">Ocupa todo el alto disponible</p>
+    <h2 class="bg-red-400 h-screen">Measures in Tailwind</h2>
+    <p class="mt-5">Ocupa el 100% de todo el contenedor (padre)</p>
+    <div class="h-[100px]">
+        <h2 class="bg-red-400 h-full">Measures in Tailwind</h2>
     </div>
 </body>
 </html>
