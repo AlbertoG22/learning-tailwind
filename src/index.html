@@ -7,11 +7,29 @@
     <title>Tailwind Course (pseudoclases)</title>
 </head>
 <body class="p-4">
+    <!-- After -->
     <button class="bg-orange-400 w-32 p-3 rounded-md relative after:content-[''] after:absolute after:left-32 after:border-8 after:border-transparent after:border-l-orange-400 after:top-4">Haz click aquí</button>
 
+    <!-- Placeholder -->
     <input class="border ml-2 px-2 placeholder:text-orange-600 placeholder:italic" type="text" placeholder="Nombre:">
 
+    <!-- File -->
     <br><br>
     <input type="file" class="file:bg-violet-100 file:border-0 file:rounded-lg file:text-violet-700 file:font-semibold file:px-3 hover:file:bg-violet-300">
+
+    <!-- Marker -->
+    <br><br>
+    <ul class="list-disc ml-6 marker:text-red-500">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <br>
+    <ol class="list-decimal ml-6 marker:text-red-500 marker:font-bold">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
 </body>
 </html>
