@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -618,6 +622,10 @@ video {
   width: 100%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -687,6 +695,11 @@ video {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -722,6 +735,14 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-3 {
@@ -769,6 +790,58 @@ video {
 .text-red-400 {
   --tw-text-opacity: 1;
   color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:left-32::after {
+  content: var(--tw-content);
+  left: 8rem;
+}
+
+.after\:top-4::after {
+  content: var(--tw-content);
+  top: 1rem;
+}
+
+.after\:border-8::after {
+  content: var(--tw-content);
+  border-width: 8px;
+}
+
+.after\:border-transparent::after {
+  content: var(--tw-content);
+  border-color: transparent;
+}
+
+.after\:border-l-orange-600::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-left-color: rgb(234 88 12 / var(--tw-border-opacity));
+}
+
+.after\:border-l-orange-400::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-left-color: rgb(251 146 60 / var(--tw-border-opacity));
+}
+
+.after\:content-\[\'Hola\'\]::after {
+  --tw-content: 'Hola';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .hover\:bg-dark-blue:hover {
