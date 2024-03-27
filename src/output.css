@@ -664,6 +664,10 @@ video {
   width: 100%;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -676,12 +680,20 @@ video {
   list-style-type: disc;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .place-content-between {
   place-content: space-between;
 }
 
 .items-start {
   align-items: flex-start;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .self-end {
