@@ -9,6 +9,9 @@ module.exports = {
       },
       spacing: {
         '42': '170px'
+      },
+      screens: {
+        'tablet': '900px',
       }
     },
   },
