@@ -1059,6 +1059,11 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(253 230 138 / var(--tw-bg-opacity));
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1066,11 +1071,25 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
   }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
   .lg\:bg-red-200 {
     --tw-bg-opacity: 1;
     background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
