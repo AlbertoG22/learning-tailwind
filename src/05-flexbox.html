@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwind Course (Flexbox)</title>
+</head>
+<body>
+
+    <!-- Flex -->
+    <div class="flex items-start border-2 border-blue-800 h-[600px] place-content-between">
+        <div class="card">1</div>
+        <div class="card self-center">2</div>
+        <div class="card self-end">3</div>
+    </div>
+
+    <!-- grow & shrink -->
+    <div class="flex flex-wrap gap-4">
+        <div class="card grow shrink-0">1</div>
+        <div class="card grow shrink-0">2</div>
+        <div class="card grow shrink-0">3</div>
+        <div class="card grow shrink-0">4</div>
+        <div class="card grow shrink-0">5</div>
+        <div class="card grow shrink-0">6</div>
+    </div>
+
+    <!-- responsive + basis -->
+    <div class="flex gap-4">
+        <div class="card basis-1/4 sm:basis-1/3">1</div>
+        <div class="card basis-1/4 sm:basis-1/3">2</div>
+        <div class="card basis-1/2 sm:basis-1/3">3</div>
+    </div>
+</body>
+</html>
