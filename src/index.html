@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <title>Tailwind Course (Dark Mode)</title>
 </head>
-<body>
-    
+<body class="dark:bg-slate-900">
+    <label for="darkmode" class="dark:text-white">Dark Mode</label>
+    <input type="checkbox" id="darkmode">
+
+    <article class="w-[400px] mt-10 border rounded-lg p-3 mx-auto">
+        <h2 class="font-bold text-lg dark:text-white">Título</h2>
+        <p class="dark:text-slate-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit expedita ipsum iste maiores enim commodi et. Soluta accusantium sequi placeat optio! Voluptatem laudantium officia sed nisi omnis cumque fuga itaque.</p>
+    </article>
+
+    <script src="./main.js"></script>
 </body>
 </html>
